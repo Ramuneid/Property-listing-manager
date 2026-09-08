@@ -7,8 +7,10 @@ __pycache__/
 *.py[cod]
 
 # Generated scraper data
-Data/
 *.csv
+Data/*
+!Data/
+!Data/2026-09-08_listings.csv
 
 # Logs
 *.log
