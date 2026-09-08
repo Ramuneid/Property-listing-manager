@@ -599,10 +599,10 @@ def main():
 
 
 def schedule_job():
-    """Run the collector every day at 08:00."""
-    logging.info("Scheduler started. Collection will run every day at 08:00.")
+    """Run the collector every day at 10:00."""
+    logging.info("Scheduler started. Collection will run every day at 10:00.")
 
-    schedule.every().day.at("08:00").do(main)
+    schedule.every().day.at("10:00").do(main)
 
     while True:
         schedule.run_pending()
